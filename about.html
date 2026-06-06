@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О платформе - Мой Город</title>
+    <link rel="icon" type="image/x-icon" href="https://invest.gov.kg/favicon-16x16.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        <header class="header">
+        <div class="container header-container">
+            <div class="header-left">
+                <a href="index.html" class="logo-link">
+                    <div class="logo">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M3 10h18M5 21V10M9 21V10M13 21V10M17 21V10M2 2h20v4H2z"/></svg>
+                        <span>МОЙ ГОРОД</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="header-right">
+                <!-- Выбор языка -->
+                <div class="lang-selector">
+                    <button class="lang-current-btn" id="langDropdownBtn">
+                        <span id="currentLangFlag">🇷🇺</span>
+                        <span id="currentLangText">RU</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
+                    </button>
+                    <div class="lang-dropdown" id="langDropdownMenu">
+                        <div class="lang-option" data-lang="ru">🇷🇺 RU</div>
+                        <div class="lang-option" data-lang="ky">🇰🇬 KG</div>
+                    </div>
+                </div>
+
+                <!-- Кнопка вызова панели доступности -->
+                <button class="icon-btn-acc" id="toggleAccPanelBtn" title="Версия для слабовидящих">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                        <circle cx="12" cy="12" r="3"/>
+                    </svg>
+                </button>
+
+                <div class="auth-zone" id="authZone">
+                    <button class="btn btn-auth" id="openAuthBtn">Вход / Регистрация</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container page-container">
+        <section class="info-card">
+            <h2>О нашей платформе</h2>
+            <p><strong>«Мой Город»</strong> — Данный сайт разработан в рамках выполнения дипломной работы (ВКР) студента Кадыралиева Эрниса и работает в демонстрационном режиме.</p>
+            <h3>Правила публикации предложений</h3>
+            <p>Все отправленные пользователями идеи сначала отправляются на внутреннюю модерацию. Администратор проверяет заявку на соответствие правилам этики и технической осуществимости, после чего одобряет её для открытого голосования жителей.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; Выпускная квалификационная работа. Автор: Кадыралиев Эрнис. © 2026</p>
+            <div class="footer-links">
+                <a href="about.html">О платформе</a>
+                <a href="contact.html">Контакты</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
